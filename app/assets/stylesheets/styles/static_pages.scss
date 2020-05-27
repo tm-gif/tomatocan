@@ -268,7 +268,6 @@ a {
 
 //FELLOWSHIP
 
-
 .paragraph1 {
   
     font-size: 18px; 
@@ -276,13 +275,14 @@ a {
     line-height: 1.7em;
   }
   
-  .paragraph2 {
+//Not necessary..kinda repetitve 
+  // .paragraph2 {
     
-    font-size:19px;  
-    line-height: 1.7em;
-    padding-top: 2px;
+  //   font-size:19px;  
+  //   line-height: 1.7em;
+  //   padding-top: 2px;
   
-  }
+  // }
   
   .button1{
     background-color: #8C1D40; 
@@ -306,7 +306,8 @@ a {
   .cardHolder:hover .cardFlip {
     transform: rotateY(180deg); 
   }
-  /* Position the front and back side */
+
+  /* Position the front and back side of rotating Question and Activities jpg*/
   .frontSide{
   
     position: absolute;
@@ -334,12 +335,12 @@ a {
     transform: rotateY(180deg); 
   }
   
-  
-  .frontSide img {
-    width: 100%;
-    height:325px;
-    border-radius: 0.5rem; 
-  }
+  //Similar to above: removed
+  // .frontSide img {
+  //   width: 100%;
+  //   height:325px;
+  //   border-radius: 0.5rem; 
+  // }
   .backSide p {
     color:#333;
     margin: 1rem;
@@ -358,18 +359,19 @@ a {
       font-weight: bold;
     }
   
-    .speaking:before {
-      content: "";
-      display:block;
-      width:550px;
-      height: 2px;
-      background: #ecd7c6;
-      position:  absolute;
-      left:0%;
-      top: 50%;
-      z-index: -2;
+    //Repeated .. ALSO don't were speaking before and after are used
+    // .speaking:before {
+    //   content: "";
+    //   display:block;
+    //   width:550px;
+    //   height: 2px;
+    //   background: #ecd7c6;
+    //   position:  absolute;
+    //   left:0%;
+    //   top: 50%;
+    //   z-index: -2;
   
-    }
+    // }
     .speaking:after {
       content: "";
       display:block;
@@ -393,7 +395,7 @@ a {
       height: 2px;
       background: #ecd7c6;
     }
-  
+  //Can'r find it either
     .box p {
       font-family: "essonnes-headline", 'Georgia', serif;
       padding-top: 80px;
@@ -445,7 +447,9 @@ a {
     width: 100%;
     padding: 0px;
   }
-  .location-icon, .location-icon1, .location-icon2 {
+
+  //is it necessary to define icon 1 and icon2
+  .location-icon{
     position: relative;
     width: 100%;
     background: #ecd7c6;
@@ -458,13 +462,9 @@ a {
   .location-icon > img {
     height:325px; 
   }
-  .location-icon1 > img {
-    height:325px;
-  }
-  .location-icon2 > img {
-    height:325px;
-  }
-  .location-content, .location-content1, .location-content2{
+  
+    //is it necessary to define content1 and content2 ---removed (reference getinvolved scss)
+  .location-content{
        position:absolute;
        bottom:0;
        left:0;
@@ -483,22 +483,8 @@ a {
      padding-top: 65px;
      margin:0px;
      }
-  .location-content1 > p{
-     background-position: relative;
-     color:black;
-     font-size:18px;
-     padding:0px 0px 10px 0px;
-     padding-top: 65px;
-     margin:0px;
-     }
-  .location-content2 > p{
-     color:black;
-     font-size:18px;
-     padding:0px 0px 10px 0px;
-     padding-top: 65px;
-     margin:0px;
-     }
-  .arrow, .arrow1, .arrow2 {
+  //is it necessary to define arrow1 and arrow2 ---removed (reference getinvolved scss)
+  .arrow {
      position:absolute;
      bottom:10px;
      left:50%;
@@ -514,18 +500,7 @@ a {
      cursor:pointer;
      transition:0.5s;
     }
-  .arrow1 > i{
-     font-size:30px;
-     color:black;
-     cursor:pointer;
-     transition:0.5s;
-    }
-  .arrow2 > i{
-     font-size:30px;
-     color:black;
-     cursor:pointer;  
-     transition:0.5s;
-    }
+  
   .current.location-icon{
       transform:translateY(-5%);
      }
