@@ -1,3 +1,5 @@
+
+//Consolidated forms of FAQ, Fellowship, GetInvolved, Stripe-Modal, NEW, Panels, Calender, Show, Aboutus
 // FAQ
 
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300,400,600');
@@ -195,22 +197,21 @@ a {
         padding-left: 16px;
     }
 
-    h4 {
-        padding-right: 14px;
-    }
+   
 }
 
 
 @media only screen and (min-width: 601px) {  /* tablet */
+  //IS IT NECESSARY TO REPEAT IF DEFINED ABOVE
+    // .toggle:after {
+    // content: '\▼';
+    // color: white;
+    // font-weight: bold;
+    // float: right;
+    // margin-left: 5px;
+    // }
 
-    .toggle:after {
-    content: '\▼';
-    color: white;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-    }
-
+    //Max-width is the only style being changed
     .content-heading {
         max-width: 440px;
         padding-left: 14px ;
@@ -423,7 +424,7 @@ a {
       min-width:auto;
       max-width: 1300px;
       height: auto;
-      padding: 10px;
+      padding: 1000px;
   
       background: rgba(255,255,255,.2);
       box-shadow: 0 5px 15px rgba(0,0,0,.5);
@@ -810,6 +811,10 @@ a {
     margin-left: 25px;
   }
   
+  h4 {
+    padding-right: 14px;
+}
+
   h5{
     font-weight: bold;
   }
