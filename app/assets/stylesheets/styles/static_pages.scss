@@ -267,7 +267,7 @@ a {
 
 
 
-//FELLOWSHIP
+//FELLOWSHIP (GETINVOLVED USES THIS TOO)
 
 .paragraph1 {
   
@@ -276,14 +276,6 @@ a {
     line-height: 1.7em;
   }
   
-//Not necessary..kinda repetitve 
-  // .paragraph2 {
-    
-  //   font-size:19px;  
-  //   line-height: 1.7em;
-  //   padding-top: 2px;
-  
-  // }
   
   .button1{
     background-color: #8C1D40; 
@@ -336,12 +328,13 @@ a {
     transform: rotateY(180deg); 
   }
   
-  //Similar to above: removed
-  // .frontSide img {
-  //   width: 100%;
-  //   height:325px;
-  //   border-radius: 0.5rem; 
-  // }
+ 
+  .frontSide img {
+    width: 100%;
+    height:325px;
+    border-radius: 0.5rem; 
+  }
+
   .backSide p {
     color:#333;
     margin: 1rem;
@@ -410,21 +403,23 @@ a {
      transform:rotate(180deg);
      transform-origin:center center;
     }
-    .text {
-      margin-top: 0;
-      margin-bottom: 1rem;
-      line-height: 1.5;
-      margin-left: 15px;
-      margin-right: 15px;
-      font-size: 18px;
-      font-weight: 400;
+    //I Don't believe that it is being used
+    // .text {
+    //   margin-top: 0;
+    //   margin-bottom: 1rem;
+    //   line-height: 1.5;
+    //   margin-left: 15px;
+    //   margin-right: 15px;
+    //   font-size: 18px;
+    //   font-weight: 400;
   
-    }
+    // }
+
     .team .container{
       min-width:auto;
       max-width: 1300px;
       height: auto;
-      padding: 1000px;
+      padding: 10px;
   
       background: rgba(255,255,255,.2);
       box-shadow: 0 5px 15px rgba(0,0,0,.5);
@@ -767,8 +762,7 @@ a {
 }	  
 
 
-.title{
-}
+
 
 .title .text{
 	color: #fff;
@@ -801,20 +795,29 @@ a {
     color:  #8C1D40;
   }
   
-  .aboutBody{
-    line-height: 1.5em;
-    margin-left: 10px;
-  }
+  // .aboutBody{
+  //   line-height: 1.5em;
+  //   margin-left: 10px;
+  // }
   
-  .aboutBody2{
-    line-height: 1.5em;
-    margin-left: 25px;
-  }
+  // .aboutBody2{
+  //   line-height: 1.5em;
+  //   margin-left: 25px;
+  // }
   
-  h4 {
-    padding-right: 14px;
-}
+ 
+  // h5{
+  //   font-weight: bold;
+  // }
 
-  h5{
-    font-weight: bold;
-  }
+  //Consolidated files
+
+
+
+
+  
+//Join The Team
+
+h4 {
+  padding-right: 14px;
+}
